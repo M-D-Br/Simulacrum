@@ -21,3 +21,5 @@ Replace the segments in double square brackets with the filenames of your desire
 Currently takes a 64-character input (haven't really played around with different lengths yet). Can be used for any string of data, and isn't exclusive to private keys.
 
 It's also possible to embed three different keys in a given image (one for each RGB value). I'll be looking into it.
+
+The motivations for implementing the _ImageHash_ concept are part of an overarching attempt at ensuring Bitcoin can be used by those in highly adversarial environments.
