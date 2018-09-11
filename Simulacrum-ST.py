@@ -85,7 +85,6 @@ if user_input == 'b':
  honeybadger_getpoints = honeybadger_read[:14641]
 
  combine = map(sum, honeybadger_getpoints)
- print(combine)
  newconstruct = list()
  for i in range(0,14641):
   if (combine[i] % 2) == 0:
